@@ -20,5 +20,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
+// Route  de la page 'A propos'
 Route::get('/a-propos', [App\Http\Controllers\AproposController::class, 'index'])->name('apropos');
